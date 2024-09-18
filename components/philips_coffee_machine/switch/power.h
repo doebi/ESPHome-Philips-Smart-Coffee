@@ -113,7 +113,7 @@ namespace esphome
                 /// @brief nr of power performed power trips
                 uint power_trip_count_ = 0;
                 /// @brief determines how often the power on message is repeated
-                uint power_message_repetitions_ = 5;
+                uint power_message_repetitions_ = 25;
                 /// @brief initial power state reference
                 bool *initial_state_;
             };
